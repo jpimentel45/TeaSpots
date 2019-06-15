@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <p id="logoT">Tea</p>
+      <p id="logoS">Spots</p>
+    </header>
+    <nav>
+      <ul id="links">
+        <li data-targetid="welcome">Welcome</li>
+        <li data-targetid="menu">Menu</li>
+        <li data-targetid="locations">Locations</li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container" id="welcome">
+        <div class="list-content ">
+          <h2>Pasadena TeaSpots Business Hours</h2>
+          <img src="" alt="" />
+          <ul class="pas-content">
+            <li>Mon: 10:00 AM – 12:00 AM</li>
+            <li>Tue: 10:00 AM – 12:00 AM</li>
+            <li>Wed: 10:00 AM – 12:00 AM</li>
+            <li>Thurs: 10:00 AM – 12:00 AM</li>
+            <li>Fri: 10:00 AM – 12:00 AM</li>
+            <li>Sat: 11:00 AM – 12:00 AM</li>
+            <li>Sun: 11:00 AM – 12:00 AM</li>
+          </ul>
+          <div id="pasDirection" data-field="address">
+            <a
+              id="pasDirectionButton"
+              href="https://www.google.com/maps/dir/Current+Location/Tea+Spots,+1443+E+Colorado+Blvd,+Pasadena,+CA+91106"
+              target="_blank"
+              >Get directions</a
+            >
+            <address class="storeAdd " itemprop="address">
+              <div>1443 East Colorado Boulevard</div>
+              <div>Pasadena, CA 91106</div>
+              <div>United States</div>
+            </address>
+          </div>
+        </div>
+        <div class="list-content ">
+          <h2>West Covina TeaSpots Business Hours</h2>
+          <img src="" alt="" />
+          <ul class="pas-content">
+            <li>Mon: 10:00 AM – 12:00 AM</li>
+            <li>Tue: 10:00 AM – 12:00 AM</li>
+            <li>Wed: 10:00 AM – 12:00 AM</li>
+            <li>Thurs: 10:00 AM – 12:00 AM</li>
+            <li>Fri: 10:00 AM – 12:00 AM</li>
+            <li>Sat: 11:00 AM – 12:00 AM</li>
+            <li>Sun: 11:00 AM – 12:00 AM</li>
+          </ul>
+          <div id="pasDirection" data-field="address">
+            <a
+              id="pasDirectionButton"
+              href="https://www.google.com/maps/dir/Current+Location/Tea+Spots,+South+Azusa+Avenue,+West+Covina,+CA"
+              target="_blank"
+              >Get directions</a
+            >
+            <address class="storeAdd " itemprop="address">
+              <div>2540 S Azusa Ave</div>
+              <div>West Covina, CA 91792</div>
+              <div>United States</div>
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="menu">
+        <!-- <ul id="buttonz">
+              <li data-targetid="teaPas"><p>Pasadena</p></li>
+              <li data-targetid="teaCo"><p>West Covina</p></li>
+            </ul> -->
+        <div id="buttonz">
+          <button id="pas" data-targetid="teaPas">Pasadena</button
+          ><button id="co" data-targetid="teaCo">West Covina</button>
+        </div>
+        <div class="container2" id="teaPas">
+          <h1>Pasadena</h1>
+          <ul class="list">
+            <li class="list-item">
+              <div class="list-content">
+                <h2>Title</h2>
+                <img src="" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="">Link</a>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-content">
+                <h2>Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="">Link</a>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="list-content">
+                <h2>Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </p>
+                <a href="">Link</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="container2" id="teaCo">West Covina</div>
+      </div>
+      <div class="container" id="locations">
+        The locations will be here
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
